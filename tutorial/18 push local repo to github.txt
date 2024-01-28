@@ -18,6 +18,7 @@ $ git init
 $ git remote add origin {remote_repo_url}
 - in my case it is
 $ git remote add origin https://github.com/neutral-00/practice-git.git
+$ git pull
 - if want to track everything type
 $ git add .
 $ git commit -m "first commit"
@@ -41,4 +42,24 @@ $ git config --global user.email "to.arvmail@gmail.com"
 $ git commit -m "first commit"
 - it should work
 - now push to the github repo
+$ git push
+- i got another error as:
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+- lets run the suggested command and push again
+$ git push --set-upstream origin main
+- I go another error:  ! [rejected]        main -> main (fetch first)
+- looks like we need to fetch first
+$ git pull
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+- I typed the below command
+$ git branch --set-upstream-to=origin/main main
+branch 'main' set up to track 'origin/main'
 $ git push
