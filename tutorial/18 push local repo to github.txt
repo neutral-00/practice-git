@@ -62,4 +62,22 @@ If you wish to set tracking information for this branch you can do so with:
 - I typed the below command
 $ git branch --set-upstream-to=origin/main main
 branch 'main' set up to track 'origin/main'
-$ git push
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+
+toarv@Neutral00 MINGW64 /d/Github Projects/practice-git (main)
+$ git pull
+fatal: refusing to merge unrelated histories
+- then i tried the below option:
+$ git pull origin main --allow-unrelated-histories
+From https://github.com/neutral-00/practice-git
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ LICENSE | 674 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 674 insertions(+)
+ create mode 100644 LICENSE
