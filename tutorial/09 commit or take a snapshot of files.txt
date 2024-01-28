@@ -1,0 +1,6 @@
+take a snapshot of files at the moment / commit
+$ git commit -m {commit_msg}
+
+
+## stage and commit at single shot for all files
+$ git commit -a -m {commit_msg}

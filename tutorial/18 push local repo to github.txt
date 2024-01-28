@@ -1,0 +1,44 @@
+
+
+## steps - create repo in github first
+- login to your github account
+- look for a new repository button, click on it
+- fill in the required details
+	- i gave repository name: practice-git
+- submit the details
+- now look for  a button called code
+- copy the url under clone>https section
+- for me it looks like: https://github.com/neutral-00/practice-git.git
+
+## link local repo to github repo
+- come back to your local folder
+- in the windows explorer bar type: git-bash
+- now in the terminal type(if you had not initialized local repo):
+$ git init
+$ git remote add origin {remote_repo_url}
+- in my case it is
+$ git remote add origin https://github.com/neutral-00/practice-git.git
+- if want to track everything type
+$ git add .
+$ git commit -m "first commit"
+- since i didn't set the email i got the below error:
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'toarv@Neutral00.(none)')
+- let me set my email
+$ git config --global user.email "to.arvmail@gmail.com"
+- now try the commit command again
+$ git commit -m "first commit"
+- it should work
+- now push to the github repo
+$ git push

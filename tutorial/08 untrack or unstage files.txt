@@ -1,0 +1,9 @@
+untrack / unstage all files
+$ git reset
+
+
+untrack / unstage a file
+$ git reset {file name}
+
+
+

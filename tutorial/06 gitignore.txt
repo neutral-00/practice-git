@@ -1,0 +1,14 @@
+
+## Create your own
+- to ingore certain file or folders from tracking by git create a file: 
+- .gitignore beside .git folders
+- and add the paths that should be ignored.
+
+$ touch .gitignore
+
+- if any file name/folder name contains space escape with \ 
+- for example: some\ file.txt
+
+
+## download and modify sample 
+- refer one from https://github.com/github/gitignore

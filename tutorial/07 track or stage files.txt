@@ -1,0 +1,9 @@
+track / stage all files
+$ git add .
+
+
+track / stage a file
+$ git add {file name}
+
+
+

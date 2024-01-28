@@ -1,0 +1,10 @@
+
+$ git log
+
+
+- for a shorter version
+$ git log --oneline
+
+
+- for a more detailed list along with the changes in files
+$ git log -p

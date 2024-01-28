@@ -1,0 +1,36 @@
+## set username and email and default branch
+```sh
+git config --global user.name "your username"
+git config --global user.email "you@example.com"
+git config --global init.default branch main
+```
+
+==============================================================================================================================================
+
+
+## help on global config
+
+$ git config -h
+$ git help config
+
+- any other command help u can get with: git help {command}
+
+
+## why set user.email
+Setting the user.email in Git global configuration is not mandatory, but it is recommended to do so. 
+The user.email is used to associate your commits with your email address, which is useful for tracking changes and collaborating with others 
+1. If you don’t set your email address, Git will prompt you to set it when you try to commit changes 
+2. To set your email address globally, you can use the following command:
+
+git config --global user.email "you@example.com"
+
+This will set your email address for all repositories on your system that don’t have repository-specific values 
+1. You can also set the email address for a specific repository by running the same command without the --global option 
+from within the repository directory.
+
+## see list of existing global configs
+$ git config --list --global
+
+
+
+

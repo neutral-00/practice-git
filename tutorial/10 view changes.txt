@@ -1,0 +1,14 @@
+
+## view what changed so far after the last commit
+$ git diff
+
+## see list of commits 
+$ git log --oneline
+
+## view what was changed in a specific commit
+$ git show {commit hash}
+
+
+
+
+

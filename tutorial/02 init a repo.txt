@@ -1,0 +1,11 @@
+
+$ cd {your_folder}
+$ git init
+
+=========================================================================================================================
+
+## init a repo
+- suppose you want to track files and folders inside practice-git
+$ cd "D:\Github Projects\practice-git"
+$ git init
+

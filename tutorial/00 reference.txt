@@ -1,0 +1,2 @@
+- git tutorial: [Kevin Stravert's 45 min tutorial on youtube](https://youtu.be/tRZGeaHPoaw) 
+- github tutorial: [github's official tutorial](https://skills.github.com/)

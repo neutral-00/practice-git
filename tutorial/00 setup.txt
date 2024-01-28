@@ -1,0 +1,5 @@
+
+## Installation steps
+1. click https://www.git-scm.com/
+2. click Downloads
+3. click download for {your os} and install it.

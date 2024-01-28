@@ -1,0 +1,9 @@
+
+- first switch to the branch from which you want to branch out say develop
+$ git checkout develop
+- alternatively tou can use switch
+$ git switch develop
+- now create a new brach from it say feature
+$ git branch feature
+- now confirm if it is present in the list of all branches
+$ git branch

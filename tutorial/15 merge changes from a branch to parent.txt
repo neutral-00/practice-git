@@ -1,0 +1,5 @@
+- first makes sure all changes are commited in the feature branch
+- then switch to parent branch say develop
+$ git switch develop
+- now merg the change from feature branch
+$ git merge -m "some msg" feature

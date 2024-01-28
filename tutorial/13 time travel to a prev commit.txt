@@ -1,0 +1,4 @@
+
+- first find out the commit hash 
+$ git log --oneline
+$ git reset {commit_hash}

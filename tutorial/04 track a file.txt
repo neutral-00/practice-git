@@ -1,0 +1,9 @@
+$ git add {name of file}
+
+- it can accept 
+	- file name
+	- wildcards like *.ts
+	- . which is current directory
+- to confirm it is tracked type: git status
+
+	

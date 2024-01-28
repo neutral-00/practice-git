@@ -1,0 +1,10 @@
+
+$ git status
+
+=====================================================================================================
+
+- git status gives info like:
+	- branch 
+	- any commits not pushed yet
+	- untracked files
+	

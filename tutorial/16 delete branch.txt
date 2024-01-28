@@ -1,0 +1,2 @@
+- delete branch which is no longer needed say in our case feature
+$ git branch -d feature

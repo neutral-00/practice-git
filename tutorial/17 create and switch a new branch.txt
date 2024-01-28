@@ -1,0 +1,3 @@
+- lets create a new branch say feature and switch to it in singleshot
+$ git switch -c feature
+
